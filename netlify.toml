@@ -1,0 +1,5 @@
+# Static site: pre-built HTML/JS export with no package manager or build step.
+# The repository root is served as-is; _redirects maps "/" to Main.dc.html.
+[build]
+  command = ""
+  publish = "."
